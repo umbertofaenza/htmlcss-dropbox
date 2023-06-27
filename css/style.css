@@ -162,12 +162,19 @@ Sub plans
 }
 
 .vertical-subs-box {
-  width: calc(100% / 3);
+  display: flex;
+  margin-bottom: 50px;
 }
 
 .vertical-sub-card {
+  width: calc(100% / 3);
+  height: 1000px;
+  font-weight: 300;
   border: 1px solid lightgray;
-  height: 900px;
+}
+
+.vertical-sub-card:nth-child(2) {
+  margin: 0 50px;
 }
 
 .vertical-sub-card h3 {
