@@ -181,7 +181,7 @@ Sub plans
 }
 
 .sub-card-content {
-  padding: 0 30px;
+  padding: 0 45px;
   height: 100%;
 }
 
@@ -216,10 +216,18 @@ Sub plans
   border-bottom: 1px solid lightgray;
 }
 
-.sub-card-keypoints ul li {
-  margin: 20px 0;
-}
-
 .sub-card-keypoints ul :first-child {
   font-weight: bold;
+}
+
+.fa-ul {
+  margin-left: 0;
+}
+
+.fa-ul li {
+  margin: 25px 0;
+}
+
+.sub-card-keypoints i {
+  color: #0061ff;
 }
