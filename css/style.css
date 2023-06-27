@@ -343,9 +343,7 @@ Clients grid
 .grid-center,
 .grid-right {
   width: calc(100% / 3);
-
   min-height: 800px;
-  border: 1px solid goldenrod;
 }
 
 .grid-card {
@@ -376,4 +374,20 @@ Clients grid
 
 .topps-card {
   background-color: #ff1c1c;
+}
+
+.bicycle-card {
+  background-color: #d5001f;
+}
+
+.hearst-card {
+  background-color: #b4d0e7;
+}
+
+.planet-card {
+  background-color: #0d2481;
+}
+
+.channel-card {
+  background-color: #ffd830;
 }
