@@ -437,3 +437,32 @@ Action
 .action h2 {
   color: #61082b;
 }
+
+/* 
+Faq
+*/
+
+.faq {
+  margin-bottom: 150px;
+}
+
+.faq-list {
+  margin-top: 70px;
+}
+
+.faq-list .question-card {
+  font-weight: bold;
+  padding: 40px 0;
+  border-bottom: 1px solid #999;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+}
+
+.faq-list .question-card:first-child {
+  border-top: 1px solid #999;
+}
+
+.answer-btn i {
+  cursor: pointer;
+}
