@@ -88,6 +88,16 @@ h2 {
   font-size: 2.5rem;
 }
 
+h3 {
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+  display: inline-block;
+}
+
 /* Header */
 
 header nav {
@@ -110,9 +120,7 @@ header a {
 /* Main */
 
 /* 
-
 Jumbotron
-
 */
 
 .jumbotron {
@@ -142,13 +150,11 @@ Jumbotron
 }
 
 /* 
-
 Sub plans
-
 */
 
 .sub-plans {
-  margin: 200px 0;
+  margin: 200px 0 150px 0;
 }
 
 .sub-plans h2 {
@@ -175,10 +181,6 @@ Sub plans
 
 .vertical-sub-card:nth-child(2) {
   margin: 0 50px;
-}
-
-.sub-card-content h3 {
-  font-size: 1.5rem;
 }
 
 .sub-card-header {
@@ -266,4 +268,30 @@ Sub plans
 
 .sub-card-content-right .primary-btn {
   padding: 10px 40px;
+}
+
+/* 
+Partners
+*/
+
+.partners {
+  margin-bottom: 150px;
+}
+
+.partners .col-left {
+  width: 60%;
+}
+
+.partners .col-right {
+  width: 40%;
+  padding: 70px 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.partner-btn {
+  padding: 10px 15px;
+  border: 1px solid currentColor;
 }
