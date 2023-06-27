@@ -288,10 +288,33 @@ Partners
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 30px;
+  gap: 40px;
 }
 
 .partner-btn {
   padding: 10px 15px;
   border: 1px solid currentColor;
+}
+
+/* 
+Operations
+*/
+
+.operations-showcase {
+  margin-bottom: 150px;
+}
+
+.operations-showcase .row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.operations-card {
+  width: calc(100% / 3 - 30px);
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
