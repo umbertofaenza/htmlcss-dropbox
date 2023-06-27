@@ -407,3 +407,33 @@ Clients grid
 .grid-center p {
   margin-bottom: 70px;
 }
+
+/* 
+Action
+*/
+
+.action {
+  background-color: #b4d0e7;
+  margin-bottom: 150px;
+}
+
+.action a {
+  text-decoration: none;
+}
+
+.action .primary-btn {
+  background-color: white;
+  color: black;
+  padding: 10px 50px;
+}
+
+.action .row {
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action h2 {
+  color: #61082b;
+}
