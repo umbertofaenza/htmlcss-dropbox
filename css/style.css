@@ -51,6 +51,11 @@
   padding: 10px 15px;
 }
 
+.divider {
+  width: 50px;
+  border-bottom: 1px solid lightgray;
+}
+
 /** GENERICS  */
 
 body {
@@ -218,7 +223,7 @@ Sub plans
   margin-bottom: 10px;
 }
 
-.divider {
+.sub-card-content .divider {
   width: 50px;
   margin: 30px 0;
   border-bottom: 1px solid lightgray;
@@ -465,5 +470,49 @@ Faq
 }
 
 .answer-btn i {
+  cursor: pointer;
+}
+
+/** Footer  */
+
+footer {
+  background-color: black;
+  color: white;
+  padding-top: 100px;
+}
+
+footer a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+footer .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .col {
+  max-width: calc(100% / 5);
+}
+
+footer ul li:first-child {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+footer ul li {
+  margin-bottom: 15px;
+}
+
+footer .divider {
+  width: 60%;
+  margin: 100px 0 50px 0;
+  border-bottom: 1px solid white;
+}
+
+footer .language {
+  padding-bottom: 30px;
+  color: #999999;
   cursor: pointer;
 }
