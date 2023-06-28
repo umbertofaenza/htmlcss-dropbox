@@ -336,12 +336,11 @@ Clients grid
 .grid-center,
 .grid-right {
   width: calc(100% / 3);
-  min-height: 800px;
 }
 
 .grid-card {
   width: 50%;
-  height: 50%;
+  aspect-ratio: 1 /1;
   display: flex;
   justify-content: center;
   align-items: center;
