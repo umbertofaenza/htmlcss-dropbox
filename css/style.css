@@ -420,7 +420,7 @@ Action
 }
 
 .action .row {
-  height: 400px;
+  padding: 150px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
