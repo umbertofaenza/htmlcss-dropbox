@@ -189,20 +189,13 @@ Sub plans
 }
 
 .sub-card-content {
-  padding: 0 45px;
-  height: 100%;
-}
-
-.sub-card-content-top {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  padding: 45px 45px;
 }
 
 .sub-card-content-top .primary-btn {
   width: 100%;
   text-align: center;
+  margin: 20px 0;
 }
 
 .sub-card-price {
