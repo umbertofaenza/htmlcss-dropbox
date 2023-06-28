@@ -171,18 +171,15 @@ Sub plans
 
 .vertical-subs-box {
   display: flex;
+  gap: 50px;
   margin-bottom: 50px;
 }
 
 .vertical-sub-card {
-  width: calc(100% / 3);
-  height: 1000px;
   font-weight: 300;
   border: 1px solid lightgray;
-}
-
-.vertical-sub-card:nth-child(2) {
-  margin: 0 50px;
+  flex-grow: 1;
+  flex-basis: 0;
 }
 
 .sub-card-header {
@@ -197,7 +194,6 @@ Sub plans
 }
 
 .sub-card-content-top {
-  height: 50%;
   margin-top: 20px;
   display: flex;
   flex-direction: column;
